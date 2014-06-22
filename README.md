@@ -1,4 +1,4 @@
 online_judge_solutions
 ======================
-This is a set of solution to algorithm problems in diferents OJ.
 ----------------------
+This is a set of solutions to algorithm problems in different OJ.
