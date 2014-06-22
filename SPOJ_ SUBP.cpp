@@ -2,8 +2,7 @@
  *  User: olimpo
  *  Problem: http://www.spoj.com/problems/SUBP/
  *  Solution: Dynamic Programing
- *    D[n][d] the number of sequences using the n-first number and the last number is less or equal
- *   than d.
+ *    D[n][d] the number of sequences using the n-first number and the last number is equal to d.
  *    D[n][d] = D[n-1][d] + (D[n-1][0...d-1] iff d == N[n])
  *  Implementation: Dont use a 2-dimensional array we can use only a array and update it.
  */
