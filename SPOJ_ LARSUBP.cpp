@@ -1,11 +1,11 @@
-#include <sstream>
-#include <string>
 /*
  * Problem: http://www.spoj.com/problems/LARSUBP/
  * user: olimpo
  * D[d]: amount of subsequences ended in d.
  * for each new digit d D[d] = sum(D[dd]) with dd = (0,d) 
  */
+#include <sstream>
+#include <string>
 #include <cstring>
 #include <vector>
 #include <map>
